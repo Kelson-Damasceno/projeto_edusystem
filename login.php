@@ -225,7 +225,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit" class="btn-entrar">Entrar →</button>
     </form>
 
-    <p class="dica">Login padrão: admin / 1234</p>
+   
 </div>
 </body>
 </html>
