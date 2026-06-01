@@ -1,3 +1,6 @@
+--querys que usamos no pjt
+
+
 -- Criar o banco de dados
 CREATE DATABASE IF NOT EXISTS escola;
 USE escola;
@@ -23,7 +26,7 @@ CREATE TABLE IF NOT EXISTS alunos (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Dados de exemplo
+-- Dados de exemplo que usei para adicionar alunos direto no MySQL
 INSERT INTO alunos (nome, ra, curso, email, telefone) VALUES
 ('João Silva', '2024001', 'Análise e Desenvolvimento de Sistemas', 'joao@email.com', '(11) 99999-0001'),
 ('Maria Souza', '2024002', 'Ciência da Computação', 'maria@email.com', '(11) 99999-0002'),
